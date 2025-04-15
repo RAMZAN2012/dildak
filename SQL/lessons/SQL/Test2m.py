@@ -1,6 +1,9 @@
+class DatabaseManager():
+    close.connect
+    
 import sqlite3
 
-connect = sqlite3.connect("movie.db")
+connect = sqlite3.connect("abc123.db")
 cursor = connect.cursor()
 
 cursor.execute("""
@@ -30,6 +33,6 @@ def delete_student(id):
     cursor.execute("DELETE FROM users WHERE id = ?", (id))
     connect.commit()
     print(f'Пользователь {id}, был успешно удалён')
-all_students()
 register()
-one_student(3)
+# one_student(3)
+# delete_student()

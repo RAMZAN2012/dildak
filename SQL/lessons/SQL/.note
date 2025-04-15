@@ -1,0 +1,8 @@
+ порядок для загрузки в гитбаше
+git config --global user.name "RAMZAN2012"
+ git config --global user.email ramzancrush@gmail.com
+ git init
+ git add .
+git commit -m "sqlite3"
+git remote add origin https://github.com/RAMZAN2012/dildak.git
+git push -u origin master
